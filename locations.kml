@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>2611 Portland</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.282525,34.030615</coordinates></Point>
+</Placemark>
+<Placemark><name>USCVillageGym</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.285779,34.025018</coordinates></Point>
+</Placemark>
+<Placemark><name>RTH</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.289929,34.020221</coordinates></Point>
+</Placemark>
+<Placemark><name>HistoryMuseum</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.288804,34.017071</coordinates></Point>
+</Placemark>
+<Placemark><name>DohenyLibrary</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.283741,34.020230</coordinates></Point>
+</Placemark>
+<Placemark><name>GalenCenter</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.279879,34.021027</coordinates></Point>
+</Placemark>
+<Placemark><name>ZemeckisUSC</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.279430,34.024197</coordinates></Point>
+</Placemark>
+<Placemark><name>AAAClub@SC</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.277340,34.028150</coordinates></Point>
+</Placemark>
+<Placemark><name>USCBookstores</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.286505,34.020758</coordinates></Point>
+</Placemark>
+<Placemark><name>HooseLibrary</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.286623,34.018815</coordinates></Point>
+</Placemark>
+</Document></kml>
