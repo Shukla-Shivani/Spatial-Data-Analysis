@@ -1,0 +1,16 @@
+<html> 
+<head>
+<script type="text/javascript">
+var a=5, b=3, c=5;
+var x0=b, y0=0;
+var lat = 34.020870;//latitude of OHE-122
+var lon = -118.289536;//longitude of OHE-122
+var cos = Math.cos, sin = Math.sin, pi = Math.PI, nRev = 10; for(var t = 0.0;t<(pi*nRev);t+=0.01){
+var x = (a+b)*cos(t)-c*cos((a/b+1)*t); var y = (a+b)*sin(t)-c*sin((a/b+1)*t);
+ 
+x = x + lat;
+y = y + lon; document.write(y+","+x+",30<br>");
+} 
+</script> 
+</head> 
+</html>
