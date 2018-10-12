@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="Shivani">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="PolyShivani">
+    <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+        <color>ff0000cc</color>
+        <colorMode>normal</colorMode>
+        <fill>1</fill>
+        <outline>1</outline>
+    </PolyStyle>
+</Style>
+<Style id="Poly1">
+    <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+        <color>bf3500d0</color>
+        <colorMode>normal</colorMode>
+        <fill>1</fill>
+        <outline>1</outline>
+    </PolyStyle>
+</Style>
+<Style id="Poly2">
+    <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+        <color>bf3500d0</color>
+        <colorMode>normal</colorMode>
+        <fill>1</fill>
+        <outline>1</outline>
+    </PolyStyle>
+</Style>
+<Placemark><name>2611 Portland</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.282525,34.030615</coordinates></Point>
+</Placemark>
+<Placemark><name>USCVillageGym</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.285779,34.025018</coordinates></Point>
+</Placemark>
+<Placemark><name>RTH</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.289929,34.020221</coordinates></Point>
+</Placemark>
+<Placemark><name>HistoryMuseum</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.288804,34.017071</coordinates></Point>
+</Placemark>
+<Placemark><name>DohenyLibrary</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.283741,34.020230</coordinates></Point>
+</Placemark>
+<Placemark><name>GalenCenter</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.279879,34.021027</coordinates></Point>
+</Placemark>
+<Placemark><name>ZemeckisUSC</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.279430,34.024197</coordinates></Point>
+</Placemark>
+<Placemark><name>AAAClub@SC</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.277340,34.028150</coordinates></Point>
+</Placemark>
+<Placemark><name>USCBookstores</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.286505,34.020758</coordinates></Point>
+</Placemark>
+<Placemark><name>HooseLibrary</name>
+<styleUrl>#Shivani</styleUrl><Point><coordinates>-118.286623,34.018815</coordinates></Point>
+</Placemark>
+<Placemark><name>Polygon1</name>
+    <styleUrl>#Poly1</styleUrl>
+    <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                <coordinates>
+                   -118.282525,34.030615,30
+                   -118.285779,34.025018,30
+                   -118.289929,34.020221,30
+                   -118.286505,34.020758,30
+                   -118.286623,34.018815,30
+                   -118.282525,34.030615,30
+                </coordinates>
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon>
+</Placemark>
+<Placemark><name>Polygon2</name>
+    <styleUrl>#Poly2</styleUrl>
+    <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                <coordinates>
+                   -118.288804,34.017071,30
+                   -118.283741,34.020230,30
+                   -118.279879,34.021027,30
+                   -118.279430,34.024197,30
+                   -118.277340,34.028150,30
+                   -118.288804,34.017071,30
+                </coordinates>
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon>
+</Placemark>
+</Document></kml>
